@@ -4,7 +4,7 @@
 #include <IE.au3>
 #include <File.au3>
 #include <MsgBoxConstants.au3>
-APPM_WEB('APPM_WEB','-','192.168.2.78','https://www.kyobobook.co.kr/login/login.laf','8443','vbnmcxz14','e7c54cf701','-','yes','yes','-')
+APPM_WEB('APPM_WEB','-','192.168.2.78','https://www.kyobobook.co.kr/login/login.laf','8443','*','*','-','yes','yes','-')
 Func APPM_WEB($hostname,$sid,$ipaddr,$url,$application_port,$accountid,$password,$exe_path,$auto_logon_flag,$auto_submit_flag,$setforground_flag)
    ;MsgBox($MB_OKCANCEL, "Form Info", $ipaddr)   ;;https://www.autoitscript.com/autoit3/docs/functions/MsgBox.htm
 
